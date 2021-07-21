@@ -23,3 +23,7 @@ This repo is created to help others with searching npm modules to do macro.
 ## How to change mouse clicks
 - Go to file `config.json`
 - change value `clickInterval` to any other number. **( NUMBER MUST BE IN MILLISECODS**, 1000ms = 1s, default: 200ms **)**
+
+## 200ms = 5 CPS
+## 100ms = 9.2 CPS
+## 50ms = 16.2 CPS
