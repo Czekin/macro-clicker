@@ -16,7 +16,7 @@ const clickInterval = setInterval(() => {
 
         console.clear();
         console.log(color.yellowBright('Czekin Macro Clicker\n'));
-        console.log(color.white("(Press 'Shift + Q' to resume)"));
+        console.log(color.white("(Press 'Shift + Z' to resume)"));
         console.log(color.gray(pauseAnimation[animationIterator]));
 
         animationIterator++;
@@ -37,7 +37,7 @@ io.on('keydown', (keyData) => {
         return process.exit(0);
     }
 
-    if (key.shiftkey && key.keycode == 16) {
+    if (key.shiftkey && key.keycode == 44) {
         if (status) {
             status = false;
             animationIterator = 0;
